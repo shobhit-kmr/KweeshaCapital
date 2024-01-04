@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap');
 
 :root {
   --primary: #163840;
@@ -15,6 +15,9 @@
 }
 
 /*========= body section start =============*/
+body{
+  font-family: 'Merriweather Sans', sans-serif;
+}
 body {
   background-color: var(--bg-color);
 }
@@ -115,14 +118,14 @@ html {
   height: 900px !important;
 }
 .Hero_section .carousel-item .carousel-caption h5 {
-  font-family: Arial;
+  /* font-family: Arial; */
   font-size: 4em;
   color: var(--fifth-primary);
   text-align: center;
   margin-top: -35%;
 }
 .Hero_section .carousel-item .carousel-caption p {
-  font-family: Arial;
+  /* font-family: Arial; */
   color: white;
   font-size: 1em;
   margin-top: 2%;
@@ -259,7 +262,7 @@ ul {
   display: block;
   font-size: 20px;
   font-weight: 700;
-  font-family: "Poppins", sans-serif;
+  /* font-family: "Poppins", sans-serif; */
   margin-bottom: 20px;
 }
 .footer-social-icon a {

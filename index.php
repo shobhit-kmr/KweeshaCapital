@@ -8,6 +8,7 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
     <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Kweesha Capital</title>
@@ -75,8 +76,8 @@
                 <div class="carousel-item active">
                     <img src="images/kweesha_hero.jpg" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption">
-                        <h5 class="text-center" style="font-family: 'Inter', sans-serif; font-weight: 900;">Welcome to Kweesha Capital</h5>
-                        <p class=" mx-auto" style="font-family: 'Inter', sans-serif; font-weight: 500;"> Your personal think tank for success. Our mission is not merely to assist
+                        <h5 class="text-center">Welcome to Kweesha Capital</h5>
+                        <p class=" mx-auto"> Your personal think tank for success. Our mission is not merely to assist
                             but to revolutionize the way you conduct your lending operations.</p>
                         <a href="#Solutions"><button class="button-2">Get Started</button></a>
                     </div>
@@ -84,8 +85,8 @@
                 <div class="carousel-item dn">
                     <img src="images/kweesha_hero_2.jpg" class="d-block w-100 img-fluid" alt="...">
                     <div class="carousel-caption">
-                        <h5 class="text-center" style="font-family: 'Inter', sans-serif; font-weight: 900;">Welcome to Kweesha Capital</h5>
-                        <p class=" mx-auto" style="font-family: 'Inter', sans-serif; font-weight: 500;">We strive to create a better, more accessible financial environment for
+                        <h5 class="text-center">Welcome to Kweesha Capital</h5>
+                        <p class=" mx-auto">We strive to create a better, more accessible financial environment for
                             small businesses and individual borrowers, enhancing not just the lending process but also
                             the overall financial landscape.</p>
                         <a href="#Solutions"><button class="button-2">Get Started</button></a>
@@ -94,8 +95,8 @@
                 <div class="carousel-item dn">
                     <img src="images/kweesha_hero_3.jpg" class="d-block w-100 img-fluid " alt="...">
                     <div class="carousel-caption">
-                        <h5 class="text-center" style="font-family: 'Inter', sans-serif; font-weight: 900;">Welcome to Kweesha Capital</h5>
-                        <p class=" mx-auto" style="font-family: 'Inter', sans-serif; font-weight: 500;">Through our services, we aim to shine a light on the hidden growth
+                        <h5 class="text-center">Welcome to Kweesha Capital</h5>
+                        <p class=" mx-auto">Through our services, we aim to shine a light on the hidden growth
                             opportunities often overlooked when businesses are merely focused on survival.</p>
                         <a href="#Solutions"><button class="button-2">Get Started</button></a>
                     </div>
@@ -120,7 +121,7 @@
     <div class="Soulutions_Section section common-section" id="Solutions">
 
         <div class="section-title text-center p-5">
-            <h1 class="mt-5 text-uppercase" style="font-family: 'Inter', sans-serif; font-weight: 900;">Solutions</h1>
+            <h1 class="mt-5 text-uppercase" >Solutions</h1>
             <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
             <p class="fs-5">Streamlining lead generation and refining financial models</p>
         </div>
@@ -173,7 +174,7 @@
 
 
         <div class="section-title text-center p-5">
-            <h1 class="mt-5 text-uppercase" style="font-family: 'Inter', sans-serif; font-weight: 900;">Case Studies</h1>
+            <h1 class="mt-5 text-uppercase">Case Studies</h1>
             <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
             <p class="fs-5">Transforming lenders' operations and enhancing lead generation</p>
         </div>
@@ -223,7 +224,7 @@
         <div class="container-fluid m-0 p-0">
 
             <div class="section-title text-center p-5">
-                <h1 class="mt-5 text-uppercase" style="font-family: 'Inter', sans-serif; font-weight: 900;">About Us</h1>
+                <h1 class="mt-5 text-uppercase" >About Us</h1>
                 <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
                 <p class="fs-5">A force for change in the lending industry</p>
             </div>
@@ -272,7 +273,7 @@
 
     <section class="common-section contact-section">
         <div class='contact_title'>
-            <h2 class="text-center contact_title fs-1 text-uppercase mt-5" style="font-family: 'Inter', sans-serif; font-weight: 900;">Contact</h2>
+            <h2 class="text-center contact_title fs-1 text-uppercase mt-5">Contact</h2>
         </div>
         <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
         <div class="mx-auto text-center">
