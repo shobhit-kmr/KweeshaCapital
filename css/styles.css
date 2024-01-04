@@ -1,4 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@300;700&display=swap');
+/* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"); */
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+
 
 :root {
   --primary: #163840;
@@ -20,6 +23,14 @@ body{
 }
 body {
   background-color: var(--bg-color);
+}
+body p{
+  font-family: 'Merriweather Sans', sans-serif !important;
+  font-weight: 300 !important;
+} 
+body h1,h2,h3,h4,h6{
+  font-family: 'Merriweather Sans', sans-serif !important;
+  font-weight: 700;
 }
 #style-16::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
@@ -107,7 +118,7 @@ html {
     39,
     39,
     0.5
-  ); /* Change the color and opacity as needed */
+  ); 
 }
 .Hero_section .carousel-item img {
   display: block;
@@ -137,7 +148,7 @@ html {
   text-align: center;
   text-transform: uppercase;
   font-weight: 600;
-  margin-left: 30px;
+  /* margin-left: 28px; */
   margin-bottom: 30px;
   cursor: pointer;
   display: inline-block;
@@ -148,7 +159,6 @@ html {
   background: var(--fourth-primary);
   background: linear-gradient(to left, #50bf80 50%, #f8f8f8 50%);
   background-position: right bottom;
-
   background-size: 500px;
   transition: all 0.5s ease;
   cursor: pointer;
