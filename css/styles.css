@@ -1,5 +1,7 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+ @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
+
+
 
 :root {
   --primary: #163840;
@@ -160,7 +162,12 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(39, 39, 39, 0.5);
+  background-color: rgba(
+    39,
+    39,
+    39,
+    0.5
+  ); 
 }
 .Hero_section .carousel-item img {
   display: block;
@@ -181,7 +188,8 @@ html {
 }
 .Hero_section .carousel-item .carousel-caption button {
   width: 200px;
-  padding-block: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   text-align: center;
   font-weight: 600;
   margin-bottom: 30px;
@@ -222,13 +230,13 @@ html {
     padding-top: 0rem !important;
     padding-bottom: 0rem !important;
   }
-  .Hero_section .carousel-item .carousel-caption h1 {
+  .Hero_section .carousel-item .carousel-caption h5 {
     font-size: 1.6em;
   }
   .Hero_section .carousel-item .carousel-caption p {
     font-size: 1em;
     width: 89%;
-    /* margin-top: 2%; */
+    margin-top: 2%;
   }
   .Hero_section .carousel-control-next {
     display: none;
@@ -460,15 +468,16 @@ ul {
 
 /*==================== modified  Contect Us Section start ===============*/
 
+.contact-section,
 .common-section .container-fluid .about_btn {
   background: linear-gradient(to left, #50bf80 50%, #f8f8f8 50%);
   background-size: 200% 100%;
   background-position: right bottom;
 }
-
+.contact-section,
 .common-section .container-fluid .about_btn:hover {
   background-position: left bottom;
-  /* color: var(--second-primary) !important; */
+  color: var(--second-primary) !important;
 }
 .contact-section,
 .common-section .about_btn {
@@ -481,11 +490,11 @@ ul {
   border-radius: 50%;
 }
 
-.form-control:focus {
-  outline: none !important;
-  transition: none !important;
-  box-shadow: none;
-  border-color: var(--fifth-primary);
+.form-control:focus{
+outline: none !important;
+transition:none !important;
+box-shadow: none;
+border-color: var(--fifth-primary);
 }
 
 /*====================  modified Contect Us Section End =================*/

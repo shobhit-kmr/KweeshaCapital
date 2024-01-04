@@ -62,8 +62,8 @@
                     <div class="carousel-item active">
                         <img src="images/kweesha_hero.jpg" class="d-block w-100 img-fluid" alt="...">
                         <div class="carousel-caption">
-                            <h1 class="text-center">Welcome to Kweesha Capital</h1>
-                            <p class="pb-4 m-0 mx-auto"> Your personal think tank for success. Our mission is not merely to assist
+                            <h5 class="text-center">Welcome to Kweesha Capital</h5>
+                            <p class=" mx-auto"> Your personal think tank for success. Our mission is not merely to assist
                                 but to revolutionize the way you conduct your lending operations.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
@@ -71,8 +71,8 @@
                     <div class="carousel-item dn">
                         <img src="images/kweesha_hero_2.jpg" class="d-block w-100 img-fluid" alt="...">
                         <div class="carousel-caption">
-                            <h1 class="text-center">Welcome to Kweesha Capital</h1>
-                            <p class="pb-4 m-0 mx-auto">We strive to create a better, more accessible financial environment for
+                            <h5 class="text-center">Welcome to Kweesha Capital</h5>
+                            <p class=" mx-auto">We strive to create a better, more accessible financial environment for
                                 small businesses and individual borrowers, enhancing not just the lending process but also
                                 the overall financial landscape.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
@@ -81,8 +81,8 @@
                     <div class="carousel-item dn">
                         <img src="images/kweesha_hero_3.jpg" class="d-block w-100 img-fluid " alt="...">
                         <div class="carousel-caption">
-                            <h1 class="text-center">Welcome to Kweesha Capital</h1>
-                            <p class="pb-4 m-0 mx-auto">Through our services, we aim to shine a light on the hidden growth
+                            <h5 class="text-center">Welcome to Kweesha Capital</h5>
+                            <p class=" mx-auto">Through our services, we aim to shine a light on the hidden growth
                                 opportunities often overlooked when businesses are merely focused on survival.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
@@ -262,7 +262,7 @@
 
     <!-- =============== Contact Section Start ========== -->
 
-    <section class="common-section section contact-section py-5" id="contact">
+    <section class="common-section section contact-section" id="contact">
         <div class='contact_title'>
             <h1 class="text-center contact_title text-uppercase mt-5">Contact</h1>
         </div>
@@ -361,7 +361,7 @@
     <footer class="footer-section">
         <div class="container">
             <div class="footer-content pt-5 pb-5">
-                <div class="row text-white">
+                <div class="row">
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
