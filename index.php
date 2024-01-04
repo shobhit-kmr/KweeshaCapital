@@ -8,6 +8,7 @@
     <!-- Style CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    
     <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Kweesha Capital</title>
@@ -108,7 +109,7 @@
             <div class="section-title text-center p-5">
                 <h1 class="mt-5 text-uppercase">Solutions</h1>
                 <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
-                <h6 class="">Streamlining lead generation and refining financial models</h6>
+                <h6>Streamlining lead generation and refining financial models</h6>
             </div>
 
             <div class="container-fluid m-0 p-0">
@@ -143,7 +144,7 @@
                                 environment for all parties involved.
                             </p>
                             <div class="mt-5 button_about ">
-                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white ">Read More</button>
+                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -163,7 +164,7 @@
             <div class="section-title text-center p-5">
                 <h1 class="mt-5 text-uppercase">Case Studies</h1>
                 <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
-                <h6 class="">Transforming lenders' operations and enhancing lead generation</h6>
+                <h6>Transforming lenders' operations and enhancing lead generation</h6>
             </div>
 
             <div class="container-fluid m-0 p-0">
@@ -191,7 +192,7 @@
                                 move from survival to success with Kweesha Capital as their trusted partner.
                             </p>
                             <div class="mt-5 button_about ">
-                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white">Read More</button>
+                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white ">Read More</button>
                             </div>
                         </div>
                         <div class="col-md-5  d-flex align-items-start align-items-center">
@@ -215,7 +216,7 @@
                 <div class="section-title text-center p-5">
                     <h1 class="mt-5 text-uppercase">About Us</h1>
                     <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
-                    <h6 class="">A force for change in the lending industry</h6>
+                    <h6>A force for change in the lending industry</h6>
                 </div>
 
                 <div class="container-fluid m-0 p-0">
@@ -263,12 +264,12 @@
 
     <section class="common-section section contact-section py-5" id="contact">
         <div class='contact_title'>
-            <h2 class="text-center contact_title  text-uppercase mt-5">Contact</h2>
+            <h1 class="text-center contact_title text-uppercase mt-5">Contact</h1>
         </div>
         <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
         <div class="mx-auto text-center">
-            <p class="mx-auto  contact_subtitle pb-3">Unlock new avenues for growth with us
-            </p>
+            <h6 class="mx-auto contact_subtitle mt-3">Unlock new avenues for growth with us
+</h6>
         </div>
 
         <div class="container-fluid p-0 my-5">
@@ -344,7 +345,7 @@
                                 </div>
 
                                 <div type="submit" name="esubmit" class="button_about text-center">
-                                    <button class=" px-5 py-3 w-48 about_btn border-0 text-white ">Send Message</button>
+                                    <button class=" px-5 py-3 w-48 about_btn border-0 text-white">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -372,14 +373,14 @@
                                     improvement and success.</p>
                             </div>
                             <div class="footer-social-icon">
-                                <h4>Follow us</h4>
+                                <h4 class="text-white">Follow us</h4>
                                 <a href="#"><i class="bi bi-instagram icon"></i></a>
                                 <a href="#"><i class="bi bi-facebook icon"></i></a>
                                 <a href="https://www.linkedin.com/company/kweesha-capital/"><i class="bi bi-linkedin icon"></i></a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-xl-2 col-lg-2  col-6 col-md-5 mb-30">
+                    <div class="col-xl-2 col-lg-2  col-6 col-md-5 mb-30 text-white">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h4>Quick Link</h4>
@@ -395,7 +396,7 @@
                         </div>
 
                     </div>
-                    <div class="col-xl-2 col-lg-2 col-6 col-md-7 mb-30">
+                    <div class="col-xl-2 col-lg-2 col-6 col-md-7 mb-30 text-white">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h4>Upcoming</h4>
@@ -410,7 +411,7 @@
                         </div>
 
                     </div>
-                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-50 text-white">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
                                 <h4>Subscribe</h4>
@@ -421,7 +422,7 @@
                             </div>
                             <div class="subscribe-form">
                                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" role="form" class="php-email-form form_data">
-                                    <input type="email" class="text-white inputtag" name="emails" placeholder="Email Address">
+                                    <input type="email" class="inputtag text-white" name="emails" placeholder="Email Address">
                                     <button type="submit" name="msubmit">Subscribe</button>
                                 </form>
                             </div>
