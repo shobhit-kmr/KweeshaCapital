@@ -8,7 +8,7 @@
     <!-- Style CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-    
+
     <!-- Style CSS -->
     <link rel="stylesheet" type="text/css" href="css/styles.css" />
     <title>Kweesha Capital</title>
@@ -68,7 +68,7 @@
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
                     </div>
-                    <div class="carousel-item dn">
+                    <div class="carousel-item ">
                         <img src="images/kweesha_hero_2.jpg" class="d-block w-100 img-fluid" alt="...">
                         <div class="carousel-caption">
                             <h5 class="text-center">Welcome to Kweesha Capital</h5>
@@ -78,7 +78,7 @@
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
                     </div>
-                    <div class="carousel-item dn">
+                    <div class="carousel-item ">
                         <img src="images/kweesha_hero_3.jpg" class="d-block w-100 img-fluid " alt="...">
                         <div class="carousel-caption">
                             <h5 class="text-center">Welcome to Kweesha Capital</h5>
@@ -224,6 +224,7 @@
                 <div class="container-fluid m-0 p-0">
                     <div class="bg-gradient-div  d-flex justify-content-center align-items-center">
                         <div class="row d-flex justify-content-center  container">
+
                             <div class="col-md-5  d-flex align-items-start align-items-center">
                                 <div class="image-section py-4">
                                     <img src="./images/about9.jpg" alt="" />
@@ -272,7 +273,7 @@
         <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block mt-1 mb-2">
         <div class="mx-auto text-center">
             <h6 class="mx-auto contact_subtitle ">Unlock new avenues for growth with us
-</h6>
+            </h6>
         </div>
 
         <div class="container-fluid  my-5">
@@ -349,7 +350,7 @@
 
                                 <div class="button_about text-center">
                                     <!-- <button class=" px-5 py-3 w-48 about_btn border-0 text-white">Send Message</button> -->
-                                    <button type="submit" name="esubmit"  class="button-2 py-2 px-4 mt-4 mb-3">Send Message</button>
+                                    <button type="submit" name="esubmit" class="button-2 py-2 px-4 mt-4 mb-3">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -377,7 +378,7 @@
                                     improvement and success.</p>
                             </div>
                             <div class="footer-social-icon">
-                                <h4 class="text-white mt-4 pt-3">Follow us</h4>
+                                <h6 class="text-white mt-4 pt-3">Follow us</h6>
                                 <a href="#"><i class="bi bi-instagram icon"></i></a>
                                 <a href="#"><i class="bi bi-facebook icon"></i></a>
                                 <a href="https://www.linkedin.com/company/kweesha-capital/"><i class="bi bi-linkedin icon"></i></a>
@@ -387,14 +388,14 @@
                     <div class="col-xl-2 col-lg-2  col-6 col-md-5 mb-30 text-white">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h4 class="my-4">Quick Link</h4>
+                                <h6 class="my-4">Quick Link</h6>
                             </div>
                             <ul>
-                                <li><a href="#">Home</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="#">Solutions</a></li>
-                                <li><a href="#">Case Studies</a></li>
-                                <li><a href="#">Contact</a></li>
+                                <li><a class="footerlink" href="#">Home</a></li>
+                                <li><a class="footerlink" href="#">About</a></li>
+                                <li><a class="footerlink" href="#">Solutions</a></li>
+                                <li><a class="footerlink" href="#">Case Studies</a></li>
+                                <li><a class="footerlink" href="#">Contact</a></li>
 
                             </ul>
                         </div>
@@ -403,13 +404,13 @@
                     <div class="col-xl-2 col-lg-2 col-6 col-md-7 mb-30 text-white">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h4 class="my-4">Upcoming</h4>
+                                <h6 class="my-4">Upcoming</h6>
                             </div>
                             <ul>
-                                <li><a href="">Employee</a></li>
-                                <li><a href="">Agreement</a></li>
-                                <li><a href="">E-sign</a></li>
-                                <li><a href="">Omfg</a></li>
+                                <li><a class="footerlink" href="">Employee</a></li>
+                                <li><a class="footerlink" href="">Agreement</a></li>
+                                <li><a class="footerlink" href="">E-sign</a></li>
+                                <li><a class="footerlink" href="">Omfg</a></li>
 
                             </ul>
                         </div>
@@ -418,7 +419,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50 text-white">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h4 class="my-4">Subscribe</h4>
+                                <h6 class="my-4">Subscribe</h6>
                             </div>
                             <div class="footer-text mb-25">
                                 <p class="text-white">Don’t miss to subscribe to our new feeds, kindly
@@ -426,7 +427,7 @@
                             </div>
                             <div class="subscribe-form">
                                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" role="form" class="php-email-form form_data">
-                                    <input type="email" class="inputtag text-white" name="emails" placeholder="Email Address">
+                                    <input type="email" class="inputtag text-white input" name="emails" placeholder="Email Address">
                                     <button type="submit" name="msubmit">Subscribe</button>
                                 </form>
                             </div>

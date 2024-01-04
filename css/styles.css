@@ -1,7 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"); */
- @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 
 :root {
   --primary: #163840;
@@ -18,71 +16,86 @@
 }
 
 /*========= body section start =============*/
-body{
-  font-family: 'Merriweather Sans', sans-serif !important;
+.input::placeholder {
+  font-family:Merriweather Sans, sans-serif !important;
+}
+body {
+  font-family: Merriweather Sans, sans-serif !important;
   overflow-x: hidden;
 }
 body {
   background-color: var(--bg-color);
 }
-body a{
+body a {
   font-weight: 600 !important;
   font-size: 18px !important;
-
 }
-body h6, h5, h1, h2, h3, h4 ,p, a, button, label{
+body h6,
+h5,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+button,
+label {
   letter-spacing: 1px !important;
   word-spacing: 1px !important;
 }
-body h6, h5, h1, h2, h3, h4{
+body h6,
+h5,
+h1,
+h2,
+h3,
+h4 {
   font-weight: 700 !important;
 }
-body h5{
+body h5 {
   font-size: 72px !important;
 }
-body h1{
+body h1 {
   font-size: 48px !important;
 }
-body h2{
+body h2 {
   font-size: 40px !important;
   line-height: 42px !important;
 }
-body h3{
+body h3 {
   font-size: 32px !important;
 }
-body h4{
+body h4 {
   font-size: 24px !important;
 }
-body h6{
+body h6 {
   font-size: 18px !important;
 }
-label{
+label {
   font-size: 16px !important;
   font-weight: 600 !important;
 }
-body p{
+body p {
   font-size: 16px !important;
   font-weight: 200 !important;
   line-height: 24px !important;
-} 
-.inputtag{
+}
+.inputtag {
   font-size: 14px !important;
   font-weight: 200 !important;
   line-height: 24px !important;
   letter-spacing: 1px !important;
   word-spacing: 1px !important;
 }
-body button{
-  font-family: 'Merriweather Sans', sans-serif !important;
+body button {
+  font-family: Merriweather Sans, sans-serif !important;
   font-weight: 600 !important;
   font-size: 18px !important;
-} 
+}
 
-
-
-
-
-
+.footerlink {
+  font-size: 16px !important;
+  font-weight: 100 !important;
+}
 
 #style-16::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
@@ -131,6 +144,7 @@ html {
   display: grid;
   place-items: center;
   font-weight: 900;
+  font-size: 25px;
   z-index: 1;
   color: var(--fourth-primary);
 }
@@ -163,12 +177,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    39,
-    39,
-    39,
-    0.5
-  ); 
+  background-color: rgba(39, 39, 39, 0.5);
 }
 .Hero_section .carousel-item img {
   display: block;
@@ -185,7 +194,6 @@ html {
 }
 .Hero_section .carousel-item .carousel-caption p {
   color: white;
-
 }
 .Hero_section .carousel-item .carousel-caption button {
   width: 200px;
@@ -236,7 +244,6 @@ html {
   .Hero_section .carousel-item .carousel-caption p {
     font-size: 1em;
     width: 89%;
-
   }
   .Hero_section .carousel-control-next {
     display: none;
@@ -340,7 +347,6 @@ ul {
   background: var(--btn-color);
 }
 .footer-widget ul li {
-
   list-style-type: none !important;
   margin-bottom: 12px;
 }
@@ -468,7 +474,6 @@ ul {
 
 /*==================== modified  Contect Us Section start ===============*/
 
-
 .common-section .container-fluid .about_btn {
   background: linear-gradient(to left, #50bf80 50%, #f8f8f8 50%);
   background-size: 200% 100%;
@@ -491,11 +496,11 @@ ul {
   border-radius: 50%;
 }
 
-.form-control:focus{
-outline: none !important;
-transition:none !important;
-box-shadow: none;
-border-color: var(--fifth-primary);
+.form-control:focus {
+  outline: none !important;
+  transition: none !important;
+  box-shadow: none;
+  border-color: var(--fifth-primary);
 }
 
 /*====================  modified Contect Us Section End =================*/
