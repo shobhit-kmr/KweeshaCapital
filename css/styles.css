@@ -20,6 +20,7 @@
 /*========= body section start =============*/
 body{
   font-family: 'Merriweather Sans', sans-serif !important;
+  overflow-x: hidden;
 }
 body {
   background-color: var(--bg-color);
@@ -184,15 +185,14 @@ html {
 }
 .Hero_section .carousel-item .carousel-caption p {
   color: white;
-  margin-top: 2%;
+
 }
 .Hero_section .carousel-item .carousel-caption button {
   width: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-block: 15px;
   text-align: center;
   font-weight: 600;
-  margin-bottom: 30px;
+  /* margin-bottom: 30px; */
   cursor: pointer;
   display: inline-block;
 }
@@ -236,7 +236,7 @@ html {
   .Hero_section .carousel-item .carousel-caption p {
     font-size: 1em;
     width: 89%;
-    margin-top: 2%;
+
   }
   .Hero_section .carousel-control-next {
     display: none;
@@ -302,7 +302,7 @@ ul {
   max-width: 200px;
 }
 .footer-text p {
-  margin-bottom: 14px;
+  margin-bottom: 16px;
   color: #7e7e7e;
   line-height: 28px;
 }
@@ -340,7 +340,7 @@ ul {
   background: var(--btn-color);
 }
 .footer-widget ul li {
-  width: 50%;
+
   list-style-type: none !important;
   margin-bottom: 12px;
 }
@@ -373,13 +373,13 @@ ul {
   position: absolute;
   right: 0;
   background: var(--fourth-primary);
-  padding: 13px 20px;
+  padding: 13px 10px 14px 9px;
   border: none;
   top: 0;
 }
 .subscribe-form button {
   color: #fff;
-  padding-bottom: 5%;
+  /* padding-bottom: 5%; */
 }
 
 .copyright-text p a {
@@ -403,9 +403,9 @@ ul {
 }
 
 .icon:hover {
-  -ms-transform: scale(1.5); /* IE 9 */
-  -webkit-transform: scale(1.5); /* Safari 3-8 */
-  transform: scale(1.5);
+  -ms-transform: scale(1.2); /* IE 9 */
+  -webkit-transform: scale(1.2); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 #upcoming-projects {
@@ -468,7 +468,7 @@ ul {
 
 /*==================== modified  Contect Us Section start ===============*/
 
-.contact-section,
+
 .common-section .container-fluid .about_btn {
   background: linear-gradient(to left, #50bf80 50%, #f8f8f8 50%);
   background-size: 200% 100%;
@@ -477,7 +477,7 @@ ul {
 .contact-section,
 .common-section .container-fluid .about_btn:hover {
   background-position: left bottom;
-  color: var(--second-primary) !important;
+  /* color: var(--second-primary) !important; */
 }
 .contact-section,
 .common-section .about_btn {
@@ -487,6 +487,7 @@ ul {
 .contact-section .col-md-2 .bi {
   color: var(--fourth-primary);
   background-color: #cbdacf;
+  padding: 15px;
   border-radius: 50%;
 }
 
