@@ -1,7 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"); */
- @import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap');
-
-
+@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap");
 
 :root {
   --primary: #163840;
@@ -21,13 +19,76 @@
 body {
   background-color: var(--bg-color);
 }
-body p{
-  font-family: 'Merriweather Sans', sans-serif !important;
-  font-weight: 300 !important;
-} 
-body h1,h2,h3,h4,h6{
-  font-family: 'Merriweather Sans', sans-serif !important;
-  font-weight: 700;
+body {
+  font-family: "Merriweather Sans", sans-serif !important;
+}
+body {
+  background-color: var(--bg-color);
+}
+body a {
+  font-weight: 600 !important;
+  font-size: 18px !important;
+}
+body h6,
+h5,
+h1,
+h2,
+h3,
+h4,
+p,
+a,
+button,
+label {
+  letter-spacing: 1px !important;
+  word-spacing: 1px !important;
+}
+body h6,
+h5,
+h1,
+h2,
+h3,
+h4 {
+  font-weight: 700 !important;
+}
+body h5 {
+  font-size: 72px !important;
+}
+body h1 {
+  font-size: 48px !important;
+}
+body h2 {
+  font-size: 40px !important;
+  line-height: 42px !important;
+}
+body h3 {
+  font-size: 32px !important;
+}
+body h4 {
+  font-size: 24px !important;
+}
+body h6 {
+  font-size: 18px !important;
+}
+label {
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+body p {
+  font-size: 16px !important;
+  font-weight: 200 !important;
+  line-height: 24px !important;
+}
+.inputtag {
+  font-size: 14px !important;
+  font-weight: 200 !important;
+  line-height: 24px !important;
+  letter-spacing: 1px !important;
+  word-spacing: 1px !important;
+}
+body button {
+  font-family: "Merriweather Sans", sans-serif !important;
+  font-weight: 600 !important;
+  font-size: 18px !important;
 }
 #style-16::-webkit-scrollbar-track {
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.1);
@@ -89,8 +150,8 @@ html {
 }
 .nav-link {
   color: var(--primary) !important;
-  font-weight: 400;
-  font-size: 20px;
+  /* font-weight: 400;
+  font-size: 20px; */
 }
 .active {
   color: #18d26e !important;
@@ -110,12 +171,7 @@ html {
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(
-    39,
-    39,
-    39,
-    0.5
-  ); 
+  background-color: rgba(39, 39, 39, 0.5);
 }
 .Hero_section .carousel-item img {
   display: block;
@@ -125,9 +181,9 @@ html {
 .Hero_section .carousel-item img {
   height: 900px !important;
 }
-.Hero_section .carousel-item .carousel-caption h5 {
+.Hero_section .carousel-item .carousel-caption h1 {
   /* font-family: Arial; */
-  font-size: 4em;
+  /* font-size: 4em; */
   color: var(--fifth-primary);
   text-align: center;
   margin-top: -35%;
@@ -135,18 +191,15 @@ html {
 .Hero_section .carousel-item .carousel-caption p {
   /* font-family: Arial; */
   color: white;
-  font-size: 1em;
-  margin-top: 2%;
+  /* font-size: 1em; */
+  /* margin-top: 2%; */
 }
 .Hero_section .carousel-item .carousel-caption button {
   width: 200px;
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-block: 20px;
   text-align: center;
   text-transform: uppercase;
-  font-weight: 600;
-  /* margin-left: 28px; */
-  margin-bottom: 30px;
+  /* font-weight: 600; */
   cursor: pointer;
   display: inline-block;
 }
@@ -184,13 +237,13 @@ html {
     padding-top: 0rem !important;
     padding-bottom: 0rem !important;
   }
-  .Hero_section .carousel-item .carousel-caption h5 {
+  .Hero_section .carousel-item .carousel-caption h1 {
     font-size: 1.6em;
   }
   .Hero_section .carousel-item .carousel-caption p {
     font-size: 1em;
     width: 89%;
-    margin-top: 2%;
+    /* margin-top: 2%; */
   }
   .Hero_section .carousel-control-next {
     display: none;
@@ -222,7 +275,7 @@ ul {
 }
 .single-cta i {
   color: #163840;
-  font-size: 30px;
+  /* font-size: 30px; */
   float: left;
   margin-top: 8px;
 }
@@ -232,13 +285,13 @@ ul {
 }
 .cta-text h4 {
   color: #fff;
-  font-size: 20px;
-  font-weight: 600;
+  /* font-size: 20px; */
+  /* font-weight: 600; */
   margin-bottom: 2px;
 }
 .cta-text span {
   color: var(--bg-color);
-  font-size: 15px;
+  /* font-size: 15px; */
 }
 .footer-content {
   position: relative;
@@ -260,21 +313,21 @@ ul {
 }
 .footer-text p {
   margin-bottom: 14px;
-  font-size: 14px;
+  /* font-size: 14px; */
   color: #7e7e7e;
   line-height: 28px;
 }
 .footer-social-icon span {
   color: #fff;
   display: block;
-  font-size: 20px;
-  font-weight: 700;
+  /* font-size: 20px;
+  font-weight: 700; */
   /* font-family: "Poppins", sans-serif; */
   margin-bottom: 20px;
 }
 .footer-social-icon a {
   color: #fff;
-  font-size: 16px;
+  /* font-size: 16px; */
   margin-right: 15px;
 }
 .footer-social-icon i {
@@ -287,8 +340,8 @@ ul {
 
 .footer-widget-heading h3 {
   color: #fff;
-  font-size: 20px;
-  font-weight: 600;
+  /* font-size: 20px;
+  font-weight: 600; */
   margin-bottom: 40px;
   position: relative;
 }
@@ -329,7 +382,7 @@ ul {
   color: var(--bg-color) !important;
 }
 .footer-menu ul li {
-  font-size: 18px;
+  /* font-size: 18px; */
   color: var(--bg-color);
 }
 .subscribe-form button {
@@ -342,9 +395,9 @@ ul {
 }
 .subscribe-form button {
   color: #fff;
-  font-size: 15px;
+  /* font-size: 15px; */
   padding-bottom: 5%;
-  font-weight: 400 !important;
+  /* font-weight: 400 !important; */
 }
 
 .copyright-text p a {
@@ -358,7 +411,7 @@ ul {
   color: #163840;
 }
 .footer-menu li a {
-  font-size: 14px;
+  /* font-size: 14px; */
   color: var(--bg-color);
 }
 
@@ -434,16 +487,15 @@ ul {
 
 /*==================== modified  Contect Us Section start ===============*/
 
-.contact-section,
 .common-section .container-fluid .about_btn {
   background: linear-gradient(to left, #50bf80 50%, #f8f8f8 50%);
   background-size: 200% 100%;
   background-position: right bottom;
 }
-.contact-section,
+
 .common-section .container-fluid .about_btn:hover {
   background-position: left bottom;
-  color: var(--second-primary) !important;
+  /* color: var(--second-primary) !important; */
 }
 .contact-section,
 .common-section .about_btn {
@@ -453,15 +505,15 @@ ul {
 .contact-section .col-md-2 .bi {
   color: var(--fourth-primary);
   font-size: 25px;
-  background-color: #cbdacf;
+  /* background-color: #cbdacf; */
   border-radius: 50%;
 }
 
-.form-control:focus{
-outline: none !important;
-transition:none !important;
-box-shadow: none;
-border-color: var(--fifth-primary);
+.form-control:focus {
+  outline: none !important;
+  transition: none !important;
+  box-shadow: none;
+  border-color: var(--fifth-primary);
 }
 
 /*====================  modified Contect Us Section End =================*/

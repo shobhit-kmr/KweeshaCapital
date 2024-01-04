@@ -61,8 +61,8 @@
                     <div class="carousel-item active">
                         <img src="images/kweesha_hero.jpg" class="d-block w-100 img-fluid" alt="...">
                         <div class="carousel-caption">
-                            <h5 class="text-center">Welcome to Kweesha Capital</h5>
-                            <p class=" mx-auto"> Your personal think tank for success. Our mission is not merely to assist
+                            <h1 class="text-center">Welcome to Kweesha Capital</h1>
+                            <p class="pb-4 m-0 mx-auto"> Your personal think tank for success. Our mission is not merely to assist
                                 but to revolutionize the way you conduct your lending operations.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
@@ -70,8 +70,8 @@
                     <div class="carousel-item dn">
                         <img src="images/kweesha_hero_2.jpg" class="d-block w-100 img-fluid" alt="...">
                         <div class="carousel-caption">
-                            <h5 class="text-center">Welcome to Kweesha Capital</h5>
-                            <p class=" mx-auto">We strive to create a better, more accessible financial environment for
+                            <h1 class="text-center">Welcome to Kweesha Capital</h1>
+                            <p class="pb-4 m-0 mx-auto">We strive to create a better, more accessible financial environment for
                                 small businesses and individual borrowers, enhancing not just the lending process but also
                                 the overall financial landscape.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
@@ -80,8 +80,8 @@
                     <div class="carousel-item dn">
                         <img src="images/kweesha_hero_3.jpg" class="d-block w-100 img-fluid " alt="...">
                         <div class="carousel-caption">
-                            <h5 class="text-center">Welcome to Kweesha Capital</h5>
-                            <p class=" mx-auto">Through our services, we aim to shine a light on the hidden growth
+                            <h1 class="text-center">Welcome to Kweesha Capital</h1>
+                            <p class="pb-4 m-0 mx-auto">Through our services, we aim to shine a light on the hidden growth
                                 opportunities often overlooked when businesses are merely focused on survival.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
@@ -108,7 +108,7 @@
             <div class="section-title text-center p-5">
                 <h1 class="mt-5 text-uppercase">Solutions</h1>
                 <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
-                <p class="fs-5">Streamlining lead generation and refining financial models</p>
+                <h6 class="">Streamlining lead generation and refining financial models</h6>
             </div>
 
             <div class="container-fluid m-0 p-0">
@@ -143,7 +143,7 @@
                                 environment for all parties involved.
                             </p>
                             <div class="mt-5 button_about ">
-                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white fs-5">Read More</button>
+                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white ">Read More</button>
                             </div>
                         </div>
                     </div>
@@ -163,7 +163,7 @@
             <div class="section-title text-center p-5">
                 <h1 class="mt-5 text-uppercase">Case Studies</h1>
                 <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
-                <p class="fs-5">Transforming lenders' operations and enhancing lead generation</p>
+                <h6 class="">Transforming lenders' operations and enhancing lead generation</h6>
             </div>
 
             <div class="container-fluid m-0 p-0">
@@ -191,7 +191,7 @@
                                 move from survival to success with Kweesha Capital as their trusted partner.
                             </p>
                             <div class="mt-5 button_about ">
-                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white fs-5">Read More</button>
+                                <button class=" px-5 py-2 w-100 about_btn border-0 text-white">Read More</button>
                             </div>
                         </div>
                         <div class="col-md-5  d-flex align-items-start align-items-center">
@@ -215,7 +215,7 @@
                 <div class="section-title text-center p-5">
                     <h1 class="mt-5 text-uppercase">About Us</h1>
                     <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
-                    <p class="fs-5">A force for change in the lending industry</p>
+                    <h6 class="">A force for change in the lending industry</h6>
                 </div>
 
                 <div class="container-fluid m-0 p-0">
@@ -248,7 +248,7 @@
                                     also the small businesses and individuals they serve.
                                 </p>
                                 <div class="mt-5 button_about ">
-                                    <button class=" px-5 py-2 w-100 about_btn border-0 text-white fs-5">Read More</button>
+                                    <button class=" px-5 py-2 w-100 about_btn border-0 text-white">Read More</button>
                                 </div>
                             </div>
                         </div>
@@ -261,13 +261,13 @@
 
     <!-- =============== Contact Section Start ========== -->
 
-    <section class="common-section section contact-section" id="contact">
+    <section class="common-section section contact-section py-5" id="contact">
         <div class='contact_title'>
-            <h2 class="text-center contact_title fs-1 text-uppercase mt-5">Contact</h2>
+            <h2 class="text-center contact_title  text-uppercase mt-5">Contact</h2>
         </div>
         <img src="images/kweesha_home_logo.svg" alt="" class=" mx-auto d-block">
         <div class="mx-auto text-center">
-            <p class="mx-auto fs-5 contact_subtitle mt-3">Unlock new avenues for growth with us
+            <p class="mx-auto  contact_subtitle pb-3">Unlock new avenues for growth with us
             </p>
         </div>
 
@@ -282,7 +282,7 @@
                                 </div>
                                 <div class="col-md-10">
                                     <div class="loction ">
-                                        <h5 class="m-0">Location:</h5>
+                                        <h4 class="m-0">Location:</h4>
                                         <p>
                                             16 Navneet Vihar, Sector 9, Indira Nagar, Lucknow, Uttar
                                             Pradesh 226016
@@ -294,7 +294,7 @@
                                 </div>
                                 <div class="col-md-10">
                                     <div class="email-address">
-                                        <h5 class="m-0">Email:</h5>
+                                        <h4 class="m-0">Email:</h4>
                                         <p>info@kweeshacapital.com</p>
                                     </div>
                                 </div>
@@ -303,7 +303,7 @@
                                 </div>
                                 <div class="col-md-10">
                                     <div class="mobile-phone">
-                                        <h5 class="m-0">Call:</h5>
+                                        <h4 class="m-0">Call:</h4>
                                         <p>+1 9177459305</p>
                                     </div>
                                 </div>
@@ -344,7 +344,7 @@
                                 </div>
 
                                 <div type="submit" name="esubmit" class="button_about text-center">
-                                    <button class=" px-5 py-3 w-48 about_btn border-0 text-white fs-6">Send Message</button>
+                                    <button class=" px-5 py-3 w-48 about_btn border-0 text-white ">Send Message</button>
                                 </div>
                             </form>
                         </div>
@@ -360,7 +360,7 @@
     <footer class="footer-section">
         <div class="container">
             <div class="footer-content pt-5 pb-5">
-                <div class="row">
+                <div class="row text-white">
                     <div class="col-xl-4 col-lg-4 mb-50">
                         <div class="footer-widget">
                             <div class="footer-logo">
@@ -372,7 +372,7 @@
                                     improvement and success.</p>
                             </div>
                             <div class="footer-social-icon">
-                                <span>Follow us</span>
+                                <h4>Follow us</h4>
                                 <a href="#"><i class="bi bi-instagram icon"></i></a>
                                 <a href="#"><i class="bi bi-facebook icon"></i></a>
                                 <a href="https://www.linkedin.com/company/kweesha-capital/"><i class="bi bi-linkedin icon"></i></a>
@@ -382,7 +382,7 @@
                     <div class="col-xl-2 col-lg-2  col-6 col-md-5 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>QUICK LINK</h3>
+                                <h4>Quick Link</h4>
                             </div>
                             <ul>
                                 <li><a href="#">Home</a></li>
@@ -398,7 +398,7 @@
                     <div class="col-xl-2 col-lg-2 col-6 col-md-7 mb-30">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Upcoming</h3>
+                                <h4>Upcoming</h4>
                             </div>
                             <ul>
                                 <li><a href="">Employee</a></li>
@@ -413,7 +413,7 @@
                     <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
                         <div class="footer-widget">
                             <div class="footer-widget-heading">
-                                <h3>Subscribe</h3>
+                                <h4>Subscribe</h4>
                             </div>
                             <div class="footer-text mb-25">
                                 <p class="text-white">Don’t miss to subscribe to our new feeds, kindly
@@ -421,7 +421,7 @@
                             </div>
                             <div class="subscribe-form">
                                 <form action="<?php echo $_SERVER['PHP_SELF']; ?>" method="post" role="form" class="php-email-form form_data">
-                                    <input type="email" class="text-white" name="emails" placeholder="Email Address">
+                                    <input type="email" class="text-white inputtag" name="emails" placeholder="Email Address">
                                     <button type="submit" name="msubmit">Subscribe</button>
                                 </form>
                             </div>
@@ -432,7 +432,7 @@
         </div>
         <hr class="footer-cta">
         <div class="text-center p-4">
-            <p class="fs-6 text-white">Copyright ©2023-2024 | <a href="/" class='text-decoration-none' style="color:var(--fourth-primary)"> Kweesha Pvt. Ltd. </a></p>
+            <p class="text-white">Copyright ©2023-2024 | <a href="/" class='text-decoration-none' style="color:var(--fourth-primary)"> Kweesha Pvt. Ltd. </a></p>
         </div>
     </footer>
     <!--============  Footer section end ===================-->
