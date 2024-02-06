@@ -63,7 +63,7 @@
                         <img src="images/kweesha_hero.jpg" class="d-block w-100 img-fluid" alt="...">
                         <div class="carousel-caption">
                             <h5 class="text-center">Welcome to Kweesha Capital</h5>
-                            <p class="m-0 pb-4 mx-auto"> Your personal think tank for success. Our mission is not merely to assist
+                            <p class="m-0 pb-4 mx-auto  " > Your personal think tank for success. Our mission is not merely to assist
                                 but to revolutionize the way you conduct your lending operations.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
@@ -72,7 +72,7 @@
                         <img src="images/kweesha_hero_2.jpg" class="d-block w-100 img-fluid" alt="...">
                         <div class="carousel-caption">
                             <h5 class="text-center">Welcome to Kweesha Capital</h5>
-                            <p class="m-0 pb-4 mx-auto">We strive to create a better, more accessible financial environment for
+                            <p class="m-0 pb-4 mx-auto  ">We strive to create a better, more accessible financial environment for
                                 small businesses and individual borrowers, enhancing not just the lending process but also
                                 the overall financial landscape.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
@@ -82,7 +82,7 @@
                         <img src="images/kweesha_hero_3.jpg" class="d-block w-100 img-fluid " alt="...">
                         <div class="carousel-caption">
                             <h5 class="text-center">Welcome to Kweesha Capital</h5>
-                            <p class="m-0 pb-4 mx-auto">Through our services, we aim to shine a light on the hidden growth
+                            <p class="m-0 pb-4 mx-auto  ">Through our services, we aim to shine a light on the hidden growth
                                 opportunities often overlooked when businesses are merely focused on survival.</p>
                             <a href="#Solutions"><button class="button-2">Get Started</button></a>
                         </div>
@@ -126,19 +126,19 @@
                                 Elevate Your Business To New Heights With Our Innovative Financial
                                 Solutions
                             </h2>
-                            <p class="text-white">
+                            <p class="text-white paragraphjustify">
                                 At KweeshaCapital, our innovative financial solutions are designed
                                 with one goal in mind - to elevate your business to new heights.
                                 Our team of financial experts and analysts are adept at
                                 streamlining lead generation, refining financial models, and
                                 optimizing every segment of your operations.
                             </p>
-                            <p class="text-white">
+                            <p class="text-white paragraphjustify ">
                                 We dive deep into the undercurrents of your business, identifying
                                 areas where growth opportunities are lost, and apply our unique
                                 analytical approach to maximize your potential.
                             </p>
-                            <p class="text-white">
+                            <p class="text-white paragraphjustify">
                                 In doing so, we help you not just to survive, but thrive - paving
                                 the way for a healthier, more transparent, and efficient lending
                                 environment for all parties involved.
@@ -176,19 +176,19 @@
                                 Discover how we've helped lenders transform their operations and enhance
                                 growth
                             </h2>
-                            <p class="text-white">
+                            <p class="text-white paragraphjustify">
                                 Our commitment to transforming the lending
                                 landscape is evident in the success stories we have helped write. Our case
                                 studies demonstrate the power of innovative approaches, meticulous analysis,
                                 and a relentless drive for improvement.
                             </p>
-                            <p class="text-white">
+                            <p class="text-white paragraphjustify">
                                 of innovative
                                 approaches, meticulous analysis, and a relentless drive for improvement.
                                 Explore how we have empowered lenders to streamline their operations, create
                                 robust financial models, and enhance their lead generation strategies.
                             </p>
-                            <p class="text-white">
+                            <p class="text-white paragraphjustify">
                                 Each case is a journey of transformation, demonstrating how businesses can
                                 move from survival to success with Kweesha Capital as their trusted partner.
                             </p>
@@ -235,18 +235,18 @@
                                 <h2 class="text-white py-4 ">
                                     Meet Kweesha Capital - a force for change in the lending industry
                                 </h2>
-                                <p class="text-white">
+                                <p class="text-white paragraphjustify">
                                     Kweesha Capital is more than just a financial
                                     consulting firm - we are a force for change in the lending industry. Our
                                     team, composed of financial strategists, analysts, and operations experts,
                                     is dedicated to tailoring solutions that propel growth and success.
                                 </p>
-                                <p class="text-white">
+                                <p class="text-white paragraphjustify">
                                     We employ an analytical approach that sets us apart, enabling us to
                                     uncover hidden opportunities and devise strategies that are as unique as
                                     your business.
                                 </p>
-                                <p class="text-white">
+                                <p class="text-white paragraphjustify">
                                     With a steadfast commitment to fairness and transparency, we strive to
                                     create a robust financial environment that benefits not only lenders but
                                     also the small businesses and individuals they serve.
@@ -341,12 +341,7 @@
                                     <label for="name" class="mt-3">Message</label>
                                     <textarea class="form-control" name="message" rows="10" required></textarea>
                                 </div>
-                                <!-- <div class="my-3">
-                                    <div class="loading">Loading</div>
-                                    <div class="error-message"></div>
-                                    <div class="sent-message">Your message has been sent. Thank you!
-                                    </div>
-                                </div> -->
+                              
 
                                 <div class="button_about text-center">
                                     <!-- <button class=" px-5 py-3 w-48 about_btn border-0 text-white">Send Message</button> -->
@@ -373,7 +368,7 @@
                                 <a href="index.html"><img src="images/kweesha_capital_footer_logo.svg" class="img-fluid" alt="logo"></a>
                             </div>
                             <div class="footer-text w-75">
-                                <p class="text-white ">Elevating businesses to new heights through
+                                <p class="text-white paragraphjustify">Elevating businesses to new heights through
                                     innovative financial solutions and a relentless drive for
                                     improvement and success.</p>
                             </div>
@@ -422,7 +417,7 @@
                                 <h6 class="my-4">Subscribe</h6>
                             </div>
                             <div class="footer-text mb-25">
-                                <p class="text-white">Don’t miss to subscribe to our new feeds, kindly
+                                <p class="text-white paragraphjustify">Don’t miss to subscribe to our new feeds, kindly
                                     fill the form below.</p>
                             </div>
                             <div class="subscribe-form">

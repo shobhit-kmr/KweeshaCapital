@@ -78,6 +78,10 @@ body p {
   font-size: 16px !important;
   font-weight: 200 !important;
   line-height: 24px !important;
+ 
+}
+.paragraphjustify{
+  text-align: justify !important;
 }
 .inputtag {
   font-size: 14px !important;
