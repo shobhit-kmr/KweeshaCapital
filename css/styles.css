@@ -1,5 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap"); */
-@import url("https://fonts.googleapis.com/css2?family=Merriweather+Sans:ital,wght@0,300;0,700;1,300;1,700&display=swap");
+  @import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
 
 :root {
   --primary: #163840;
@@ -17,10 +17,10 @@
 
 /*========= body section start =============*/
 .input::placeholder {
-  font-family:Merriweather Sans, sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
 }
 body {
-  font-family: Merriweather Sans, sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
   overflow-x: hidden;
 }
 body {
@@ -91,7 +91,7 @@ body p {
   word-spacing: 1px !important;
 }
 body button {
-  font-family: Merriweather Sans, sans-serif !important;
+  font-family: 'Inter', sans-serif !important;
   font-weight: 600 !important;
   font-size: 18px !important;
 }
